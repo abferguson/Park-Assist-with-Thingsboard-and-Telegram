@@ -6,7 +6,7 @@ I ran across other maker's park assist devices and decided it might be useful fo
 My goal was to use the HC-SR04 ultrasonic sensor to make the measurements coupled with a 5mm LED and an LED strip to provide visual feedback of distance:
   1) Turn the LED on when the car was within range of the sensor
   2) Blink the LED white at a faster rate the closer the car was to the sensor
-  3) Change the LED and LED strip color to red, with no blinking, when the car reaches the park position.
+  3) Change the LED and WS2812B LED strip color to red, with no blinking, when the car reaches the park position.
   4) When approaching or departing, display LED strip LEDs as a function of distance: the closer the vehicle the fewer LEDs lit relative to center LED.
   5) Provide a momentary contact button on the unit to provide distance setting capability.
   6) Store the park position distance onboard the unit, using LittleFS library, in case of reboot or power failure.
